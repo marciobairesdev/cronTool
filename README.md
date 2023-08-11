@@ -41,7 +41,7 @@ The fields are as follows:
 -  **`1 0 * * * * *`:** will run at one minute past midnight (00:01) every day;
 -  **`45 23 * * 6 * *`:** will run at 23:45 (11:45 PM) every Saturday;
 -  **`*/5 * * * * * *`:** will run at every 5s;
--  **```10,20,30,40,50 * * *  * *  *```:** will run at 0, 10, 20, 30, 40, and 50 seconds past the minute (valid one due to disregarded leading and trailing whitespace and extra whitespaces sanitized);
+-  **```10,20,30,40,50        * * * * *      *```:** will run at 0, 10, 20, 30, 40, and 50 seconds past the minute (valid one due to disregarded leading and trailing whitespace and extra whitespaces sanitized);
 -  **`3-15 * * * * * *`:** will run at every minute from 3 through 15.
 
 ## :no_entry: Examples of invalid expressions
