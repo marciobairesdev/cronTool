@@ -48,3 +48,7 @@ The fields are as follows:
 Handling Cron expressions and simulating a Cron scheduler without using specific libraries is quite challenging and therefore not all non-standard Cron features have been implemented.
 
 To validate the Cron expressions I created a specific regular expression, however it may not be very accurate, as well as all the code must have flaws, as it has not been thoroughly tested and not analyzed to ensure that every possible combination of fields in the Cron expressions are scheduled and run correctly.
+
+## References:
+- https://en.wikipedia.org/wiki/Cron
+- https://www.quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontriggers.html
