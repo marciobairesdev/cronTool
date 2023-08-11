@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestParseCronExpression_ValidExpression(t *testing.T) {
+func TestParseCronExpressionWithValidExpression(t *testing.T) {
 	tests := []struct {
 		Expression string
 	}{
@@ -29,7 +29,7 @@ func TestParseCronExpression_ValidExpression(t *testing.T) {
 	}
 }
 
-func TestParseCronExpression_InvalidExpression(t *testing.T) {
+func TestParseCronExpressionWithInvalidExpression(t *testing.T) {
 	tests := []struct {
 		Expression string
 	}{
